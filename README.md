@@ -1,7 +1,7 @@
 # Rain Man
 
 An old 1960s rain indicator from my grandparents has found a new lease on life! 
-Originally, it featured a comical figurine of a drunkard clinging to a lamppost, with a clever touch—the lamp housed litmus paper that changed from blue to pink to signal approaching storms.
+Originally, it featured a comical figurine of a drunkard clinging to a lamppost, with a clever touch - the lamp housed litmus paper that changed from blue to pink to signal approaching storms.
 
 The litmus paper is long gone, but now the figurine lives on with a modern twist. Hidden inside is an ESP8266 D1 Mini, paired with a barometric pressure and temperature sensor, a motion-activated screen, and RGB LED indicators that emit blue or pink light. It once again informs you of changing weather conditions, but also publishes data via MQTT (or logging it directly to InfluxDB) for full smart home integration with Home Assistant.
 
